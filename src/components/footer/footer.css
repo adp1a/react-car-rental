@@ -1,0 +1,22 @@
+#footer {
+    height: 20vh;
+    width: 100vw;
+    background: #1B1B1B;
+    display: flex;
+    flex-direction: row;
+}
+
+#footer div {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 10px;
+}
+
+#footer div:first-child {
+    margin-left: 20px;
+}
+
+#footer div:not(:first-child) {
+    margin-left: 100px;
+}
